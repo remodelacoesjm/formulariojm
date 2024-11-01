@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Formulário</title>
+</head>
+
+<body class="body">
+
+    <div>
+
+        <h1>Formulário</h1>
+        <h3>Preencha o formulário:</h3>
+    
+    <form action="script.php" method="post">
+
+        <label>Nome</label> <input type="text" id="nome" name="nome" placeholder="Nome" required><br>
+        <label>E-mail</label> <input type="email" id="email" name="email" placeholder="E-mail"><br>
+        <label>Contacto</label> <input type="tel" id="contacto" name="contacto" placeholder="Contacto"><br>
+        <label>Mensagem</label> <textarea type="text" rows="3" id="mensagem" name="mensagem" placeholder="Digite a sua mensagem"></textarea><br><br>
+        <p></p>
+        <div>
+            <button type="submit" name="submeter" popovertarget="alerta">Submeter</button>
+            <button type="reset">Reset</button>
+        </div>
+
+    </form>
+   
+    <div popover id="alerta">
+        <h2> Dados submetidos com sucesso <br></h2>
+        <button popovertarget="alerta" popovertargetaction="hide">OK</button>
+    </div>
+
+    <br>
+    <br>
+    <button class="balerta" popovertarget="alerta">Carrega para aparecer alerta</button>
+
+    </div>
+
+<!--
+    <script>
+    function funcao()
+    {
+    alert("A escrever dados!");
+    }
+    </script>
+-->
+
+</body>
+
+</html>
+

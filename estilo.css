@@ -1,0 +1,90 @@
+body{
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    color: chocolate;
+}
+
+h3{
+    text-align: center;
+    color: rgb(160, 85, 30);
+}
+
+form{
+    background-color: white;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+label{
+    color: white;
+    padding-top: 10px;
+}
+
+button{
+    border-width: 0;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: chocolate;
+    align-content: baseline;
+}
+
+button:hover{
+    background-color: rgb(160, 85, 30);
+    /*font-weight: bold;*/
+    cursor: pointer;
+}
+
+input{
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-bottom-color: chocolate;
+    height: 20px;
+    padding: 5px;
+}
+
+input:hover{
+    border-bottom-width: 2px;
+}
+
+textarea{
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-bottom-color: chocolate;
+    height: 40px;
+    padding: 5px;
+   
+}
+
+textarea:hover{
+    border-bottom-width: 2px;
+}
+
+#alerta{
+    font-family: sans-serif;
+    font-size: small;
+    color:chocolate;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    background-color: gray;
+    border: none;
+    border-radius: 20px;
+    
+}
+
+.balerta{
+    display: block;
+    width: 200px;
+    text-align: center;
+}
